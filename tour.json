@@ -1,0 +1,57 @@
+[
+    {
+         "name" : "SUMMER TOURS",
+         "price": 2055,
+         "image": "https://i.ibb.co/6Nc8tZr/summer.png",
+         "description": "Take advantage of the just-right weather and discover a summer tour that lets you soak in the sun. Ready for some warm-weather exploring? Break out the SPF—and let us be part of your next summer trip."
+    },
+       {
+        "name" : "FAMILY TOURS",
+        "price": 2355,
+        "image": "https://i.ibb.co/714fYbz/family.png",
+        "description": "There's no trip like a family trip. When your family joins one of our group tours, you'll enter a new world of unforgettable educational experiences together."
+       },
+       {
+        "name" : "WINTER TOURS",
+        "price": 2855,
+        "image": "https://i.ibb.co/qR5xJfp/winter.png",
+        "description": "There’s something magical about winter getaways to new places—especially during the holiday season. See the Northern Lights in Iceland or the lit-up cobblestone streets in the Netherlands, and so much more when you travel on our trips during the winter."
+       },
+
+       {
+        "name" : "Venice, Florence & Rome Peninsula",
+        "price": 2299,
+        "image": "https://i.ibb.co/7CN61zV/pic-1.jpg",
+        "duration": "12 days or 15 days with Sorrento Peninsula extention."
+       },
+       {
+        "name" : "South Africa: Cultural Cities & Wildlife.",
+        "price": 4199,
+        "image": "https://i.ibb.co/z5JL0HZ/pic-2.jpg",
+        "duration": "17 days or 20 days with Sorrento Peninsula extention."
+       },
+       {
+        "name" : "The Greek Islands: Mykonos, Santorini & Crete",
+        "price": 3249,
+        "image": "https://i.ibb.co/HDPFGzS/pic-3.jpg",
+        "duration": "14 days or 16 days with Peninsula Athens extention."
+       },
+       {
+        "name" : "Canadian Rockies: Banff, Kelowna & Vancouver",
+        "price": 3255,
+        "image": "https://i.ibb.co/xjJCsy5/pic-4.jpg",
+        "duration": "9 days or 11 days with Victoria Sorrento extention."
+       },
+       {
+        "name" : "New Yaar's Eve in Florence eith Venice & Rome",
+        "price": 2333,
+        "image": "https://i.ibb.co/synJYys/pic-5.jpg",
+        "duration": "9 days or 11 days with Sorrento Peninsula extention."
+       },
+       {
+        "name" : "Scandinavia: The Capitals & the Fjords",
+        "price": 3549,
+        "image": "https://i.ibb.co/5WCtk14/pic-6.jpg",
+        "duration": "11 days or 14 days Peninsula Prague extention."
+       }
+]
