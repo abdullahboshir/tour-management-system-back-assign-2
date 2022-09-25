@@ -31,13 +31,13 @@ exports.updateTourServices = async (tourId, data) => {
     return updateTour;
 };
 
-
+// get top 3 view trend
 exports.tourTrendingServices = async (req, res) => {
     const result = await Tour.find({}).sort({'viewCount': -1}).limit(3)
     return result;
 }
 
-
+// get cheapest 3 tour 
 exports.tourCheapestServices = async (req, res) => {
     const result = await Tour.find({}).sort({'price': 1}).limit(3)
     return result;

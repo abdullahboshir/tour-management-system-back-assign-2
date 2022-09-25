@@ -72,7 +72,7 @@ exports.tourDetailsWithId = async (req, res) => {
    try {
     const {id} = req.params;
     const filter = await tourDetailsWithIdServices(id);
-    console.log(filter.viewCount)
+
     res.status(200).json({
         status: 'Success',
         message: `data is view-`,
@@ -119,20 +119,17 @@ exports.updatetourController = async (req, res) => {
 };
 
 
+// get top 3 view trend 
 exports.tourTrendingController = async (req, res) => {
     const topViewsTour = await tourTrendingServices();
-    res.send({message: 'top view found', topViewsTour})
+    res.send({message: 'Top 3 tours are most viewed', topViewsTour})
 }
 
 
+// get cheapest 3 tour 
 exports.tourCheapestController = async (req, res) => {
     const topViewsTour = await tourCheapestServices();
-    res.send({message: 'top view found', topViewsTour})
+    res.send({message: 'Top 3 are cheap tours', topViewsTour})
 }
 
 
-exports.tourDeleteController = async (req, res) => {
-    const {id} = req.params;
-    const result = await Tour.deleteOne({_id: id})
-    res.send(result)
-}
