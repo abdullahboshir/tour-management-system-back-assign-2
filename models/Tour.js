@@ -33,7 +33,7 @@ tourSchema.methods.logger = function () {
     console.log(`Data saved for ${this.name}`)
 }
 
-const Tour = mongoose.model('Tour', tourSchema);
+const Tour_data = mongoose.model('Tour_data', tourSchema);
 
 
-module.exports = Tour;
+module.exports = Tour_data;

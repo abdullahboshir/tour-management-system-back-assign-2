@@ -1,4 +1,4 @@
-const Tour = require("../models/Tour");
+const TourSchemaModel = require("../models/Tour");
 const {
     getTourServices,
     postTourServices,
