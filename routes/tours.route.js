@@ -21,7 +21,7 @@ router.route('/tour/trending')
 
 // get cheapest 3 tour 
 router.route('/tour/cheapest')
-.get(tourControllers.tourCheapestController)
+.get(tourControllers.tourCheapestController) 
 
 
 
