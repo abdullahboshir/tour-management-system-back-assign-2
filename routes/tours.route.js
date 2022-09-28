@@ -12,13 +12,14 @@ router.route('/')
 router.route('/:id')
 .patch(tourControllers.updatetourController)
 .get(tourControllers.tourDetailsWithId)
-// .delete(tourControllers.tourDeleteController)
 
 
+// get top 3 view trend 
 router.route('/tour/trending')
 .get(tourControllers.tourTrendingController)
 
 
+// get cheapest 3 tour 
 router.route('/tour/cheapest')
 .get(tourControllers.tourCheapestController)
 

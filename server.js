@@ -15,15 +15,12 @@ const app = require('./app');
 
 const uri = "mongodb+srv://acc_assingment_2:4LZIZ4TaKjwjuEHz@cluster0.phbgpqx.mongodb.net/inventory_managemant_ACC?retryWrites=true&w=majority";
 
-
 mongoose.connect(uri, {
     useNewUrlParser: true,
-    // useCreateIndex: true,
     useUnifiedTopology: true,
-    // useFindAndModify: false
 }).then(() => {
-    console.log('connection is successful');
-}).catch((error) => console.log('no connection'))
+    console.log('mongodb connection is successful');
+}).catch((error) => console.log('mongodb connection is failed'))
 
 
 
