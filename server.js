@@ -13,7 +13,7 @@ const app = require('./app');
 
 
 
-const uri = "mongodb+srv://acc_assingment_2:4LZIZ4TaKjwjuEHz@cluster0.phbgpqx.mongodb.net/inventory_managemant_ACC?retryWrites=true&w=majority";
+const uri = `mongodb+srv://${process.env.DB_NAME}:${process.env.DB_PASS}@cluster0.phbgpqx.mongodb.net/${process.env.DB_COLL}?retryWrites=true&w=majority`;
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
